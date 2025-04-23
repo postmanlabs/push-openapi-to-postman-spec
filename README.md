@@ -1,4 +1,4 @@
-# push-openapi-to-postman
+# push-openapi-to-postman-spec
 
 > This code is part of a blog post and is **not** actively maintained by Postman.
 
@@ -14,7 +14,7 @@ You will need to add the following values to your repository:
 The following is an example of manual trigger and its required input:
 
 ```yaml
-name: Sync OpenAPI with Postman
+name: Sync OpenAPI with Postman Spec
 on:
   workflow_dispatch:
     inputs:
