@@ -30,7 +30,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Push OpenAPI to Postman
         id: pushSpec
-        uses: davidespihernandez/push-openapi-to-postman-spec@v1
+        uses: postmanlabs/push-openapi-to-postman-spec@v1
         with:
           path-to-definition: ./api_definition.yaml
           postman-api-key: ${{ secrets.POSTMAN_API_KEY }}

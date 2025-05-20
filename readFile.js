@@ -21,11 +21,4 @@ const readSchemaFile = async (path) => {
     }
 };
 
-const readReleaseNotes = async (path) => {
-    if (existsSync(path)) {
-        let content = await fsAsync.readFile(path, 'utf8');
-        return content.toString();
-    }
-};
-
-module.exports = { readSchemaFile, readReleaseNotes };
+module.exports = { readSchemaFile };
