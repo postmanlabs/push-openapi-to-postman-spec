@@ -1,7 +1,7 @@
 {
-  "name": "push-openapi-to-postman",
+  "name": "push-openapi-to-postman-spec",
   "version": "1.0.0",
-  "description": "Push Open API to Postman Action",
+  "description": "Push Open API to Postman Spec Action",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
