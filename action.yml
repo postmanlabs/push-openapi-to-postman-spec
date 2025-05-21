@@ -1,4 +1,4 @@
-name: push-openapi-to-postman
+name: push-openapi-to-postman-spec
 description: 'Reads a JSON OpenAPI definition from your repo and pushes it to an existing Postman Spec'
 author: David Espí Hernández <david.espi@postman.com>
 branding:
