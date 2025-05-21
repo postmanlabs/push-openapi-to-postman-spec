@@ -8,7 +8,7 @@ async function run() {
     const postmanApiKey = core.getInput('postman-api-key');
     const path = core.getInput('path-to-definition');
     const specId = core.getInput('spec-id');
-    const fileName = core.getInput('api-path-to-file-name');
+    const fileName = 'index.yaml';
 
     core.info(`Inputs:`);
     core.info(`  path-to-definition: ${path}`);
