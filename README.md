@@ -42,7 +42,7 @@ jobs:
 
 - The `path-to-definition` value points to the file in your repo that contains your OpenAPI definition.
 - Your OpenAPI definition can be in JSON or YAML format.
-- The file name in your Spec must match the `api-path-to-file-name` value.
+- `api-path-to-file-name` must be either `index.yaml` or `index.json`, depending on the format used in your spec.
 
 ## License
 
