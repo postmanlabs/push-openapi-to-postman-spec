@@ -17,11 +17,6 @@ The following is an example of manual trigger and its required input:
 name: Sync OpenAPI with Postman Spec
 on:
   workflow_dispatch:
-    inputs:
-      releaseNotes:
-        description: 'The new version release notes'
-        required: false
-        default: ''
 jobs:
   sync-with-postman-spec:
     runs-on: ubuntu-latest
